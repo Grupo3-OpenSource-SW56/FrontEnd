@@ -1,0 +1,81 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e6f7ff;
+}
+
+mat-card {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+mat-card-title {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.full-width {
+  width: 100%;
+}
+
+mat-form-field {
+  color: #4a4a4a;
+}
+
+mat-form-field.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #2e8b57;
+}
+
+mat-form-field.mat-focused .mat-form-field-outline-thick {
+  color: #2e8b57;
+}
+
+mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #2e8b57;
+}
+
+mat-error {
+  color: #d32f2f;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-button button {
+  width: 100%;
+}
+
+button[color="primary"] {
+  background-color: #2e8b57;
+  color: #ffffff;
+}
+
+button[color="accent"] {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
+
+button[color="primary"]:hover {
+  background-color: #98ff98;
+}
+
+button[color="accent"]:hover {
+  background-color: #2e8b57;
+}
