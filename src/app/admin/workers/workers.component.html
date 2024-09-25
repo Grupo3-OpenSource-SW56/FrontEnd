@@ -1,0 +1,26 @@
+<div class="workers-container">
+  <h2>Workers</h2>
+
+  <div class="search-bar">
+    <mat-form-field appearance="outline">
+      <mat-icon matPrefix>search</mat-icon>
+      <input matInput placeholder="Search for Workers" />
+    </mat-form-field>
+  </div>
+
+  <div class="workers-list">
+    <div class="worker-item" *ngFor="let worker of workers">
+      <div class="worker-avatar">
+        <img src="https://via.placeholder.com/80" alt="Worker Avatar" />
+      </div>
+      <div class="worker-info">
+        <h3>{{ worker.name }}</h3>
+        <p>{{ worker.position }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="add-worker">
+    <button mat-raised-button color="primary">Add worker</button>
+  </div>
+</div>
