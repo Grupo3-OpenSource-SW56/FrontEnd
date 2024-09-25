@@ -14,6 +14,6 @@ export class PlansComponent {
   }
 
   goToRegister() {
-    this.router.navigate(['/admin/dashboard']);
+    this.router.navigate(['/admin/summary']);
   }
 }
