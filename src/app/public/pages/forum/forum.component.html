@@ -1,0 +1,26 @@
+<div class="forum-container">
+  <mat-card class="forum-card-title">
+    <mat-card-header>
+      <mat-card-title>Foro Estudiantil</mat-card-title>
+    </mat-card-header>
+  </mat-card>
+</div>
+
+<div *ngFor="let forum of forums" class="forum-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ forum.title }}</mat-card-title>
+      <mat-card-subtitle>{{ forum.description }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div>
+        <p>{{ forum.threads }} temas</p>
+        <p>{{ forum.posts }} mensajes</p>
+        <p>Último mensaje por {{ forum.lastPoster }} el {{ forum.lastPostTime }}</p>
+      </div>
+      <div class="forum-image">
+        <img [src]="forum.image" alt="Profile image">
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

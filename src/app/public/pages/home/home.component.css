@@ -1,0 +1,18 @@
+.home-container {
+  height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  text-align: center;
+  align-items: center;
+  width: 100%; /* Ajusta al tamaño del contenedor padre */
+  max-width: 600px; /* Límite máximo de ancho para el card */
+  padding: 20px; /* Espacio interior para no pegar el contenido a los bordes */
+}
+
+mat-card-header {
+  padding-bottom: 16px;
+}

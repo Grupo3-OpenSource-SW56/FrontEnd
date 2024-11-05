@@ -1,0 +1,98 @@
+{
+  "forums": [
+    {
+      "id": 1,
+      "title": "Discusión General",
+      "description": "Discute temas generales acerca de ingeniería de software y programación.",
+      "threads": 120,
+      "posts": 840,
+      "image": "https://randomuser.me/api/portraits/women/71.jpg",
+      "lastPoster": "Eva Green",
+      "lastPostTime": "07/10/2023"
+    },
+    {
+      "id": 2,
+      "title": "Soporte Técnico",
+      "description": "Obtén ayuda del soporte técnico para solucionar algún error o problema en tu cuenta.",
+      "threads": 80,
+      "posts": 300,
+      "image": "https://randomuser.me/api/portraits/women/72.jpg",
+      "lastPoster": "Carmen Lucia",
+      "lastPostTime": "21/04/2023"
+    },
+    {
+      "id": 3,
+      "title": "Feature Requests",
+      "description": "Sugiere y discute nuevos temas para mejorar en programación.",
+      "threads": 50,
+      "posts": 150,
+      "image": "https://randomuser.me/api/portraits/men/70.jpg",
+      "lastPoster": "David Lee",
+      "lastPostTime": "02/09/2022"
+    }
+  ],
+  "repositories": [
+    {
+      "id": 1,
+      "name": "Repositorio de Angular",
+      "description": "Recursos para aprender Angular",
+      "lastUpdated": "01/01/2024"
+    },
+    {
+      "id": 2,
+      "name": "Repositorio de Python",
+      "description": "Recursos para aprender Python",
+      "lastUpdated": "01/02/2024"
+    },
+    {
+      "id": 3,
+      "name": "Repositorio de JavaScript",
+      "description": "Recursos para aprender JavaScript",
+      "lastUpdated": "03/01/2024"
+    },
+    {
+      "id": 4,
+      "name": "Repositorio de TypeScript",
+      "description": "Recursos para aprender TypeScript",
+      "lastUpdated": "04/01/2024"
+    },
+    {
+      "id": 5,
+      "name": "Repositorio de Dart",
+      "description": "Recursos para aprender Dart",
+      "lastUpdated": "05/01/2024"
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "category": "Conceptos básicos de JavaScript",
+      "author": "Juan Perez",
+      "files": 5
+    },
+    {
+      "id": 2,
+      "category": "Componentes de React",
+      "author": "Maria Rodriguez",
+      "files": 8
+    },
+    {
+      "id": 3,
+      "category": "Proyectos en Vue.js",
+      "author": "Pedro Gomez",
+      "files": 6
+    },
+    {
+      "id": 4,
+      "category": "Desarrollo de software en Node.js",
+      "author": "Ana Martinez",
+      "files": 10
+    },
+    {
+      "id": 5,
+      "category": "Fundamentos de HTML & CSS",
+      "author": "Luis Hernandez",
+      "files": 7
+    }
+  ]
+}

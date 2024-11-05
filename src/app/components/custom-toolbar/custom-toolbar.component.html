@@ -1,0 +1,30 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over" position="start">
+    <a mat-button [routerLink]="home_button.path">{{home_button.title}}</a>
+    <a mat-button [routerLink]="forum_button.path">{{forum_button.title}}</a>
+    <a mat-button [routerLink]="repos_button.path">{{repos_button.title}}</a>
+    <a mat-button [routerLink]="multimedia_button.path">{{multimedia_button.title}}</a>
+    <a mat-button [routerLink]="subscriptions_button.path">{{subscriptions_button.title}}</a>
+    <a mat-raised-button [routerLink]="signIn_button.path">{{signIn_button.title}}</a>
+    <a mat-raised-button [routerLink]="account_button.path">{{account_button.title}}</a>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <img src="./assets/logo.svg" alt="logo-toolbar" class="logo-toolbar">
+      <h1>Fast Learners</h1>
+      <button mat-icon-button (click)="sidenav.toggle()" *ngIf="isScreenSmall">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div *ngIf="!isScreenSmall">
+        <a mat-button [routerLink]="home_button.path">{{home_button.title}}</a>
+        <a mat-button [routerLink]="forum_button.path">{{forum_button.title}}</a>
+        <a mat-button [routerLink]="repos_button.path">{{repos_button.title}}</a>
+        <a mat-button [routerLink]="multimedia_button.path">{{multimedia_button.title}}</a>
+        <a mat-button [routerLink]="subscriptions_button.path">{{subscriptions_button.title}}</a>
+        <a mat-raised-button [routerLink]="signIn_button.path">{{signIn_button.title}}</a>
+        <a mat-raised-button [routerLink]="account_button.path">{{account_button.title}}</a>
+      </div>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>

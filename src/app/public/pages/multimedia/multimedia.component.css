@@ -1,0 +1,17 @@
+.channels-container {
+  padding: 10px;
+}
+
+.channels-card-title {
+  align-items: center;
+}
+
+mat-card-header {
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+mat-card-content {
+  display: flex;
+  align-items: center;
+}

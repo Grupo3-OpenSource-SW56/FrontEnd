@@ -1,0 +1,28 @@
+.forum-container {
+  padding: 10px;
+}
+
+.forum-card-title {
+  align-items: center;
+}
+
+mat-card-header {
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+mat-card-content {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.forum-image {
+  margin-left: auto;
+}
+
+.forum-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
