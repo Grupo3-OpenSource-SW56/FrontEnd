@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-import { RouterModule } from '@angular/router';
+import { RouterLink, RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from "@angular/common/http";
 
@@ -20,7 +20,7 @@ import { MultimediaComponent } from './public/pages/multimedia/multimedia.compon
 import { UserAccountComponent } from './public/pages/user-account/user-account.component';
 import { FooterComponent } from "./components/footer/footer.component";
 
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatInputModule } from "@angular/material/input";
 import { MatButtonModule } from "@angular/material/button";
 import { MatTableModule } from "@angular/material/table";
@@ -35,6 +35,7 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 
 import { ForumsService } from "./learning/services/forums.service";
 import { MatSidenavContainer } from "@angular/material/sidenav";
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,9 @@ import { MatSidenavContainer } from "@angular/material/sidenav";
     FooterComponent
   ],
   imports: [
+    RouterLink,
+    MatFormFieldModule,
+    ReactiveFormsModule,
     BrowserModule,
     RouterModule,
     AppRoutingModule,
